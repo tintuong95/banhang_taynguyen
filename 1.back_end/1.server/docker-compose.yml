@@ -1,0 +1,46 @@
+version: "3.7"
+
+services:
+
+  mysql:
+    image: mysql:5.7
+    command: --init-file /data/application/init.sql
+    volumes:
+      - ./init.sql:/data/application/init.sql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: nongsanviet
+      MYSQL_PASSWORD: secret
+  phpmyadmin:
+    image: phpmyadmin
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+    depends_on:
+      - mysql
+  server:
+    image: node:16.13.1-alpine3.13
+    command: sh -c "yarn install && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all && yarn run dev "
+    ports:
+      - 3000:3000
+    working_dir: /app
+    volumes:
+      - ./:/app
+    environment:
+      DB_HOST: mysql
+      DB_USERNAME: root
+      DB_PASSWORD: secret
+      DB_NAME: nongsanviet
+      PORT: 3000
+      SALTROUNDS: 11
+      PRIVATE_KEY: private
+    
+
+
+volumes:
+  todo-mysql-data:

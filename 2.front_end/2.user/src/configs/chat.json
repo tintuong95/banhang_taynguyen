@@ -1,0 +1,49 @@
+{
+  "OPTIONS": [
+    "Hướng dẫn mua hàng",
+    "Hướng dẫn thanh toán",
+    "Hướng dẫn vận chuyển"
+  ],
+  "Hướng dẫn mua hàng": [
+    "Cách mua hàng",
+    "Cách đổi trả hàng",
+    "Cách hủy đơn hàng"
+  ],
+  "Hướng dẫn thanh toán": [
+    "Cách thanh toán",
+    "Cách hủy thanh toán",
+    "Cách hoàn tiền"
+  ],
+  "Hướng dẫn vận chuyển": [
+    "Cách vận chuyển",
+    "Cách hủy đơn vận chuyển",
+    "Cách hoàn tiền vận chuyển"
+  ],
+  "Cách mua hàng": [
+    "Bạn chỉ cần đăng nhập, thêm hàng vào giỏ , tiến hàng thanh toán , đã xong ! "
+  ],
+  "Cách đổi trả hàng": [
+    "Bạn chỉ cần đăng nhập, thêm hàng vào giỏ , tiến hàng thanh toán , đã xong ! "
+  ],
+  "Cách hủy đơn hàng": [
+    "Bạn chỉ cần đăng nhập, thêm hàng vào giỏ , tiến hàng thanh toán , đã xong ! "
+  ],
+  "Cách thanh toán": [
+    "Bạn chỉ cần đăng nhập, thêm hàng vào giỏ , tiến hàng thanh toán , đã xong ! "
+  ],
+  "Cách hủy thanh toán": [
+    "Bạn chỉ cần đăng nhập, thêm hàng vào giỏ , tiến hàng thanh toán , đã xong ! "
+  ],
+  "Cách hoàn tiền": [
+    "Bạn chỉ cần đăng nhập, thêm hàng vào giỏ , tiến hàng thanh toán , đã xong ! "
+  ],
+  "Cách vận chuyển": [
+    "Bạn chỉ cần đăng nhập, thêm hàng vào giỏ , tiến hàng thanh toán , đã xong ! "
+  ],
+  "Cách hủy đơn vận chuyển": [
+    "Bạn chỉ cần đăng nhập, thêm hàng vào giỏ , tiến hàng thanh toán , đã xong ! "
+  ],
+  "Cách hoàn tiền vận chuyển": [
+    "Bạn chỉ cần đăng nhập, thêm hàng vào giỏ , tiến hàng thanh toán , đã xong ! "
+  ]
+}
